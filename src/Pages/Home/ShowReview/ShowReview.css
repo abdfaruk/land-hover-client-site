@@ -1,0 +1,22 @@
+.review{
+    border-radius: 10px;
+    transition: 0.6s;
+    text-align: center;
+}
+
+.review:hover{
+    box-shadow: 4px 4px 7px gray;
+    border-radius: 10px;
+    border: 1px solid lightslategrey;
+    background-color: lightgray;
+}
+
+.review img{
+    height: 120px;
+    width: 40%;
+    border-radius: 70px;
+}
+
+.review-title{
+    margin-bottom: 40px;
+}

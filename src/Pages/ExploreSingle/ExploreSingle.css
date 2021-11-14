@@ -1,0 +1,23 @@
+.service{
+    border-radius: 10px;
+    transition: 0.6s;
+    text-align: center;
+}
+
+.service:hover{
+    box-shadow: 4px 4px 7px gray;
+    border-radius: 10px;
+    border: 1px solid lightslategrey;
+    background-color: lightgray;
+}
+
+.service img{
+    height: 200px;
+    width: 100%;
+}
+.all-btn{
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    background-color: rgb(135, 221, 23);
+    padding: 10px 25px;
+}
