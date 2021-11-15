@@ -6,30 +6,30 @@ const Footer = () => {
         <div className="footer-area">
             <div className="footer-fl">
                     <div className="footer-col">
-                        <h4>About Me</h4>
+                        <h4>Real Estate Markets</h4>
                         <ul>
-                            <li>About Travel With Atik</li>
-                            <li>Advertise With Us (PDF)</li>
-                            <li>Write for Travel Oregon</li>
-                            <li>Privacy Policy,</li>
-                            <li>Terms of Use & Accessibility</li>
+                            <li>alabama real estate</li>
+                            <li>alaska real estate</li>
+                            <li>arizona real estate</li>
+                            <li>alabama real estate</li>
+                            <li>arkansas real estate</li>
                         </ul>
                     </div>
                     <div className="footer-col">
-                        <h4>Travel Industry</h4>
+                        <h4>Popular Searches</h4>
                         <ul>
-                            <li>Submit Your Lodging Listing</li>
-                            <li>Travel Industry</li>
-                            <li>Travel Oregon Press Room</li>
-                            <li>Recognition Programs</li>
+                            <li>Cheap apartments near me</li>
+                            <li>Pet friendly apartments near me</li>
+                            <li>Land for sale near me</li>
+                            <li>Townhomes for sale near me</li>
                         </ul>
                     </div>
                     <div className="footer-col">
-                        <h4>Contact With Me</h4>
+                        <h4>For Professionals</h4>
                         <ul>
-                            <li>Address: 13323 California St.Omaha, NE, 18813</li>
-                            <li>Tel: 1 (855) 123 780 456</li>
-                            <li>Email: farukabdullahal9@gmail.com</li>
+                            <li>Popular counties</li>
+                            <li>Rental communities</li>
+                            <li>Real Estate Leads</li>
                         </ul>
                     </div>
             </div>
