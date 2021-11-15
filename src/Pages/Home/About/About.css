@@ -2,3 +2,12 @@
     height: 600px;
     width: 100%;
 }
+
+@media only screen and (max-width:688px) {
+    .about-img{
+        height: 250px;
+    }
+    .about-text{
+        
+    }
+}

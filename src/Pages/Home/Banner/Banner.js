@@ -2,7 +2,8 @@ import React from 'react';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import { NavLink } from 'react-router-dom';
-import { Button, Typography, Container } from '@mui/material';
+import { Button, Typography, } from '@mui/material';
+import './Banner.css';
 
 
 const bannerBg ={
@@ -16,7 +17,7 @@ const bannerBg ={
 
 const Banner = () => {
     return (
-        <div style={bannerBg} sx={{ flexGrow: 1 }}>
+        <div className="banner" style={bannerBg} sx={{ flexGrow: 1 }}>
             <Grid container spacing={2}>
                 <Grid style={{textAlign: 'left'}} item xs={12} md={6}>
                     <Box>
