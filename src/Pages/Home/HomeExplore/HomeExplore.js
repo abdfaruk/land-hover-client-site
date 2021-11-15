@@ -4,7 +4,7 @@ import ExploreSingle from '../../ExploreSingle/ExploreSingle';
 const HomeExplore = () => {
     const [explore, setExplore] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/products')
+        fetch('https://mighty-ridge-44167.herokuapp.com/products')
             .then(res => res.json())
             .then(data => {
                 const displayData = data.slice(0,6)

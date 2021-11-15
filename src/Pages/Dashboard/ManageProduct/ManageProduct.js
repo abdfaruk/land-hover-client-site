@@ -11,7 +11,7 @@ const ManageProduct = () => {
     const [explore, setExplore] = useState([]);
     const [reload, setReload] = useState(false);
     useEffect(() => {
-        fetch('http://localhost:5000/products')
+        fetch('https://mighty-ridge-44167.herokuapp.com/products')
             .then(res => res.json())
             .then(data => {
                 setExplore(data)
@@ -20,7 +20,7 @@ const ManageProduct = () => {
     }, [reload])
 
     const handleDelete = (id) =>{
-        fetch(`http://localhost:5000/deleteProducts/${id}`, {
+        fetch(`https://mighty-ridge-44167.herokuapp.com/deleteProducts/${id}`, {
             method: 'DELETE'
         })
         .then(res => res.json())

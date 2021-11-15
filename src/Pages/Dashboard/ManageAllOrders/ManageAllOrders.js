@@ -12,7 +12,7 @@ const ManageAllOrders = () => {
 
 
     useEffect( () =>{
-        fetch('http://localhost:5000/orders')
+        fetch('https://mighty-ridge-44167.herokuapp.com/orders')
         .then(res => res.json())
         .then(data => setOrders(data))
     },[])

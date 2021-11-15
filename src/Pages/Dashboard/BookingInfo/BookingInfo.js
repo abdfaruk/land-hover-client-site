@@ -13,7 +13,7 @@ const BookingInfo = () => {
     const [bookingInfo, setBookingInfo] = useState([]);
 
     useEffect( ()=>{
-        const url= `http://localhost:5000/bookingInfo?email=${user.email}`
+        const url= `https://mighty-ridge-44167.herokuapp.com/bookingInfo?email=${user.email}`
         fetch(url)
         .then(res => res.json())
         .then(data => setBookingInfo(data))

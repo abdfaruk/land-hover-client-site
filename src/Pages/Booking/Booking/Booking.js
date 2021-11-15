@@ -17,7 +17,7 @@ import { Container } from '@mui/material';
 const Booking = () => {
     const [services, setServices] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/products')
+        fetch('https://mighty-ridge-44167.herokuapp.com/products')
             .then(res => res.json())
             .then(data =>{
                 setServices(data)
@@ -43,7 +43,7 @@ const Booking = () => {
     const { register, handleSubmit, reset, formState: { errors } } = useForm();
   const onSubmit = data => {
       const formData = {...data, ...selectedData}
-      fetch('http://localhost:5000/bookingInfo', {
+      fetch('https://mighty-ridge-44167.herokuapp.com/bookingInfo', {
           method: 'POST',
           headers:{
               'content-type':'application/json'

@@ -5,7 +5,7 @@ import './Explore.css';
 const Explore = () => {
     const [explore, setExplore] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/products')
+        fetch('https://mighty-ridge-44167.herokuapp.com/products')
             .then(res => res.json())
             .then(data => setExplore(data));
     }, [])

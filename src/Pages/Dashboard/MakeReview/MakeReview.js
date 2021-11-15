@@ -6,7 +6,7 @@ const MakeReview = () => {
     const { register, handleSubmit, reset, formState: { errors } } = useForm();
     const onSubmit = data => {
         const formData = {...data}
-        fetch('http://localhost:5000/review', {
+        fetch('https://mighty-ridge-44167.herokuapp.com/review', {
             method: 'POST',
             headers:{
                 'content-type':'application/json'
