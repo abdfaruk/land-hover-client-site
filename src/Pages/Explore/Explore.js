@@ -13,9 +13,9 @@ const Explore = () => {
     return (
         <div className="margin-from-top">
             <h1 className="text-success margin-top">SELECT YOUR FAVORITE HOME</h1>
-                <h5 className="container mb-4">
-                With over 1 million+ homes for sale available on the website, Trulia can match you with a house you will want to call home.
-                With more neighborhood insights than any other real estate website, we've captured the color and diversity of communities.</h5>
+                <h3 className="container mb-4">
+                With over 1 million+ homes for sale available on the website, We can match you with a house you will want to call home.
+                With more neighborhood insights than any other real estate website, we've captured the color and diversity of communities.</h3>
             <div className="service-container">
                 {
                     explore.map(explore => <ExploreSingle
