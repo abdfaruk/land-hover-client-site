@@ -12,7 +12,7 @@ const HomeExplore = () => {
             });
     }, [])
     return (
-        <div className="mt-5 container">
+        <div className="margin-from-top">
             <h1 className="text-success margin-top">SELECT YOUR FAVORITE HOME</h1>
             <h3 className="container mb-4">
                 With over 1 million+ homes for sale available on the website, We can match you with a house you will want to call home.
