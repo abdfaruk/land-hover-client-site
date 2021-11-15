@@ -14,7 +14,7 @@ const ShowReview = () => {
     
     return (
         <Container sx={{marginTop:'50px', marginBottom:'20px'}}>
-            <h1 className="review-title">Our Happy Client Says</h1>
+            <h1 className="review-title">OUR HAPPY CLIENT SAYS</h1>
            <div className="service-container">
                 {
                     reviewInfo.map(e => <div className="review">
